@@ -24,9 +24,6 @@ playerBtn.forEach((btn, i) => {
   });
 });
 
-console.log(playerBtn);
-console.log(playerBlock);
-
 radioPlayerInit();
 videoPlayerInit();
 musicPlayerInit();
