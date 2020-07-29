@@ -172,6 +172,17 @@
         <div class="container">
           <div class="radio-container">
             <div class="radio-player">
+              <span class="fa fa-volume-down radio-icon"></span>
+              <input
+                type="range"
+                class="radio-volume"
+                min="0"
+                max="100"
+                step="1"
+                value="100"
+              />
+              <span class="fa fa-volume-up radio-icon"></span>
+
               <div class="radio-cover">
                 <img
                   class="radio-cover__img"
@@ -179,8 +190,10 @@
                   alt="обложка"
                 />
               </div>
+
               <h3 class="radio-header__big">Выбери радиостанцию</h3>
             </div>
+
             <form class="radio-navigation">
               <h2 class="radio-header">Другие радиостанции</h2>
               <ul class="radio-list">
